@@ -6,7 +6,7 @@ try:
     from tkinter import ttk
     from tkinter import messagebox
     import os
-    import numpy
+    import numpy as np
 except:
     #import install_requirements  # install packages
 
