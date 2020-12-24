@@ -7,7 +7,6 @@ try:
     from tkinter import messagebox
     import os
     import numpy as np
-    import pandas as pd
 except:
     #import install_requirements  # install packages
 
