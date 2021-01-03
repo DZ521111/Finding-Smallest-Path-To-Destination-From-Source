@@ -144,6 +144,7 @@ endBox.grid(row=1, column=1, pady=3)
 startBox.grid(row=0, column=1, pady=3)
 label.grid(row=0, pady=3)
 
+# updation of window
 window.update()
 mainloop()
 
