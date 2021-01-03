@@ -42,6 +42,7 @@ class spot:
         pygame.draw.rect(screen, color, (self.i * w, self.j * h, w, h), st)
         pygame.display.update()
 
+    # add neighbour while finding the actual shortest path
     def addNeighbors(self, grid):
         i = self.i
         j = self.j
