@@ -117,6 +117,7 @@ for i in range(0,row):
     grid[i][0].obs = True
     grid[i][row-1].obs = True
 
+# events when user click on submit button
 def onsubmit():
     global start
     global end
